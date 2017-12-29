@@ -1,3 +1,9 @@
-{ 
-  "navigationBarTitleText": "测试"
+{
+	"navigationBarTitleText":"欢乐慧WeChat",
+	"navigationBarTextStyle":"white",
+	"navigationBarBackgroundColor":"#ff0000",
+	"backgroundColor":"#0dd",
+	"backgroundTextStyle":"#ccc",
+	"enablePullDownRefresh":true,
+  "onReachBottomDistance":"100px"
 }

@@ -33,7 +33,11 @@ App({
       }
     })
   },
+  getUserName:function(){
+      return  "欢乐慧wx";
+  },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    time:"2017/12/29"
   }
 })

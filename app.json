@@ -5,9 +5,28 @@
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#dfdfdf",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0dd",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+     "color":"black",
+     "selectedColor":"#f00",
+     "backgroundColor":"#ffccff",
+     "borderStyle":"black",
+     "position":"bottom",
+     "list":[
+         {
+           "pagePath":"pages/test/test",
+           "text":"测试"
+          
+         },
+         {
+           "pagePath":"pages/index/index",
+           "text":"首页"
+         }
+     ]
+  },
+  "debug":true
 }
