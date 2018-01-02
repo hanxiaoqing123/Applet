@@ -22,15 +22,15 @@ Page({
 		      'Content-Type': 'application/json'
 		  },
 		  success: function(res) {
-		     console.log(res.data);
+		  	that.setData({
+		       list:res.data.stories
+		    })
 		  },
 		  fail: function(res) {
 		    
 		  },
 		  complete: function(res) {
-		     that.setData({
-		     	list:res.data.stories
-		     })
+
 		  }
 		})
 	},

@@ -1,0 +1,12 @@
+.page_hd{
+	text-align:center;
+}
+.wrapper{
+	display:flex;
+}
+.wrapper .item{
+	width:33.333%;
+	height:200rpx;
+	border:1px solid #999;
+	margin-right:10rpx;
+}
