@@ -1,6 +1,6 @@
 {
   "pages":[
-   "pages/demo1/demo1",
+    "pages/demo1/demo1",
     "pages/test/test",
     "pages/index/index",
     "pages/logs/logs"
@@ -18,6 +18,11 @@
      "borderStyle":"black",
      "position":"bottom",
      "list":[
+         {
+           "pagePath":"pages/demo1/demo1",
+           "text":"弹性盒"
+          
+         },
          {
            "pagePath":"pages/test/test",
            "text":"测试"

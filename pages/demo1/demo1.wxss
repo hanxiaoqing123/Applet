@@ -3,10 +3,16 @@
 }
 .wrapper{
 	display:flex;
+	flex-wrap:nowrap;
+	padding:0 10rpx;
 }
 .wrapper .item{
-	width:33.333%;
+	font-size:14px;
 	height:200rpx;
 	border:1px solid #999;
-	margin-right:10rpx;
+	box-sizing:border-box;
+	display:flex;
+	flex:auto;
+	justify-content:center;
+	align-items:center;
 }
