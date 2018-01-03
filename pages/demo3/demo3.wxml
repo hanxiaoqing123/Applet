@@ -1,0 +1,10 @@
+<view  class="area"  wx:for="{{list}}"  wx:key="{{name}}">
+
+{{index}}=======>name:{{item.name}}====>address:{{item.address}}
+</view>
+
+<view  wx:for="{{array}}" wx:key="*this">
+    {{item}}
+</view>
+<view data-flag="1" wx:if="{{flag}}">比较wx:if和hidden</view>
+<view data-flag="2"  hidden="{{flag}}">比较wx:if和hidden</view>
