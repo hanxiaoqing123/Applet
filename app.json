@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/quna/quna",
     "pages/demo1/demo1",
     "pages/test/test",
     "pages/index/index",
@@ -18,6 +19,11 @@
      "borderStyle":"black",
      "position":"bottom",
      "list":[
+         {
+           "pagePath":"pages/quna/quna",
+           "text":"去哪儿网"
+          
+         },
          {
            "pagePath":"pages/demo1/demo1",
            "text":"弹性盒"

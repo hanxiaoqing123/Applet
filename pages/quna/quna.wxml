@@ -1,0 +1,41 @@
+<view class="page">
+	<view class="page_hd">
+       <text>去哪儿网</text>
+	</view>
+    <view class="page_bd">
+	    <view class="section_nav">
+	    	<view class="left border-right">酒店</view>
+	        <view class="right">
+		       	<view class="item border-right border-bottom">酒店1</view>
+		        <view class="item border-bottom">酒店2</view>
+		        <view class="item border-right">酒店3</view>
+		     	<view class="item">酒店4</view>
+	        </view>
+	    </view>
+	    <view class="section_nav" style="background:#41aaf2;">
+	    	<view class="left border-right">酒店</view>
+	        <view class="right">
+		       	<view class="item border-right border-bottom">酒店1</view>
+		        <view class="item border-bottom">酒店2</view>
+		        <view class="item border-right">酒店3</view>
+		     	<view class="item">酒店4</view>
+	        </view>
+	    </view>
+	    <view class="section_nav" style="background:#8db036;">
+	    	<view class="left border-right">酒店</view>
+	        <view class="right">
+		       	<view class="item border-right border-bottom">酒店1</view>
+		        <view class="item border-bottom">酒店2</view>
+		        <view class="item border-right">酒店3</view>
+		     	<view class="item">酒店4</view>
+	        </view>
+	    </view>
+	    <view class="section_bottom" >
+	    	<view class="left border-right ">金融·理财</view>
+	        <view class="right">
+		       	<view class="item border-right">保险·车险</view>
+		        <view class="item">全球购·换汇</view>
+	        </view>
+	    </view>
+    </view>
+</view>
