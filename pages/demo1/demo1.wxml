@@ -19,7 +19,7 @@
         <view class="item">
            <text>5555</text> 
         </view>
-        <view class="item">
+        <view class="item" style="order:-1">
            <text>6666</text> 
         </view>
         </view>	
