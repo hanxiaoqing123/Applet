@@ -8,3 +8,16 @@
 </view>
 <view data-flag="1" wx:if="{{flag}}">比较wx:if和hidden</view>
 <view data-flag="2"  hidden="{{flag}}">比较wx:if和hidden</view>
+<block  wx:if="{{true}}">
+	<view>1111</view>
+	<view>2222</view>
+</block>
+<view  wx:if="{{condition>=90}}">
+90
+</view>
+<view  wx:elif="{{condition>=80}}">
+80
+</view>
+<view  wx:else>
+60
+</view>

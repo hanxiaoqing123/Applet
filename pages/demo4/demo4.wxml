@@ -1,0 +1,5 @@
+<import  src="item.wxml" />
+
+<template  is="info"   data="{{...item}}"/>
+
+<include src="tips.wxml" />

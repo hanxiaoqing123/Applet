@@ -1,6 +1,6 @@
 .area{
 	margin-bottom:10px;
-	padding:1 10rpx;
+	padding:0 20rpx;
 	font-size:14px;
 	color:red;
 }

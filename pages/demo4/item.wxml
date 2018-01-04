@@ -1,0 +1,8 @@
+<template  name="info">
+ 	<view>
+ 		<text>{{name}}</text>
+ 	</view>
+ 	<view>
+ 	    <text>{{address}}</text>
+ 	</view>
+</template>

@@ -7,7 +7,8 @@ Page({
 		{"name":"tc04","address":"深圳"}
 		],
 		array:[1,2,3,4,5,6,7,8,9],
-		flag:false
+		flag:false,
+		condition:90
 	},
 	onLoad:function(options){
 		
