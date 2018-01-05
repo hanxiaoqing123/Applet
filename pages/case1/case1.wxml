@@ -1,9 +1,9 @@
 <view  class="page center">
 	<swiper  indicator-dots="{{indicatorDots}}" autoplay="{{true}}" interval="{{interval}}"  duration="{{duration}}">
 
-	<block  wx:for="{{imgs}}">
+	<block  wx:for="{{imgs}}"  wx:key="*this">
 		<swiper-item>
-             <image src="{{item}}" />
+             <image src="{{item}}"/>
 		</swiper-item>
 	</block>
 	</swiper>
