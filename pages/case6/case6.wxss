@@ -1,0 +1,15 @@
+.page{
+
+	width:600rpx;
+	height:300rpx;
+	border:1px solid #ccc;
+	margin-left:70rpx;
+	margin-top:150px;
+	text-indent:26rpx;
+}
+input{
+	font-size:16px;
+	height:100rpx;
+	text-align:left;
+	
+}

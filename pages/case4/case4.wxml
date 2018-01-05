@@ -1,0 +1,16 @@
+<view  class="page  center">
+ <view>{{seladdr}}--{{selcour}}--{{selclz}}</view>
+
+  <picker-view  bindchange="change" value="{{value}}" indicator-style="height:50px;"  class="picker" >
+    <picker-view-column> 
+	  <view  wx:for="{{address}}" wx:key="*this" class="it">{{item}}</view>
+	</picker-view-column>
+	<picker-view-column> 
+	  <view  wx:for="{{course}}"  wx:key="*this"  class="it">{{item}}</view>
+	</picker-view-column>
+	<picker-view-column> 
+	  <view  wx:for="{{clz}}" wx:key="*this" class="it">{{item}}</view>
+	</picker-view-column>
+
+</picker-view>
+</view>

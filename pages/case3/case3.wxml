@@ -1,0 +1,5 @@
+<view  class="page">
+
+<progress   percent="40"  active  show-info   backgroundColor="#ccc" class="pro"/>
+
+</view>

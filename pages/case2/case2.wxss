@@ -1,0 +1,7 @@
+.scroll{
+	background:#f3c;
+	height:300px;
+}
+.inner{
+	height:500px;
+}
