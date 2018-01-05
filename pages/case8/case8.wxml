@@ -1,0 +1,10 @@
+<view  class="page ">
+   <view>{{title}}</view>
+   <view  class="item" style="border-bottom:1px solid #fff;">
+      声音<switch   checked  bindchange="change"/>
+   </view>
+   <view   class="item" >
+      震动<switch  bindchange="change1" />
+   </view>
+</view>
+

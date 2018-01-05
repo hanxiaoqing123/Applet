@@ -13,3 +13,8 @@ input{
 	text-align:left;
 	
 }
+.btn{
+	background:#308fe8;
+	margin-top:40rpx;
+	color:#fff;
+}

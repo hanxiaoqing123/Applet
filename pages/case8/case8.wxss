@@ -1,0 +1,10 @@
+
+.item{
+    padding:20px;
+	background:#dfdfdf;
+	line-height:30px;
+}
+switch{
+	float:right;
+    
+}
