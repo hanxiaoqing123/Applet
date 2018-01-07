@@ -1,5 +1,5 @@
 <view  class="page ">
-  <navigator  url="/pages/case8/case8"  open-type="switchTab">点击跳转到case8</navigator>
+  <navigator  url="/pages/case8/case8?title=from_case9&a=1&b=2&c=3"  >点击跳转到case8</navigator>
   <view  bindtap="redirect">api===>点击跳转到case8</view>
 </view>
 

@@ -1,0 +1,4 @@
+<view  class="page center">
+  <video src="{{src}}" controls danmu-btn enable-danmu danmu-list="{{danmuList}}"  autoplay  ></video>
+</view>
+
