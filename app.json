@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/home/home",
+    "pages/coming/coming",
     "pages/case13/case13",
     "pages/case12/case12",
     "pages/case11/case11",
@@ -29,31 +31,27 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar":{
-     "color":"black",
-     "selectedColor":"#f00",
-     "backgroundColor":"#ffccff",
+     "color":"#0dd",
+     "selectedColor":"#f6c",
+     "backgroundColor":"#fcf",
      "borderStyle":"black",
      "position":"bottom",
      "list":[
          {
-           "pagePath":"pages/quna/quna",
-           "text":"去哪儿网"
+           "pagePath":"pages/home/home",
+           "text":"正在热映",
+           "iconPath":"image/ing.png",
+           "selectedIconPath":"image/ing-active.png"
           
          },
          {
-           "pagePath":"pages/demo1/demo1",
-           "text":"弹性盒"
+           "pagePath":"pages/coming/coming",
+           "text":"即将上映",
+           "iconPath":"image/coming.png",
+           "selectedIconPath":"image/coming-active.png"
           
-         },
-         {
-           "pagePath":"pages/test/test",
-           "text":"测试"
-          
-         },
-         {
-           "pagePath":"pages/index/index",
-           "text":"首页"
          }
+
      ]
   },
   "debug":true
