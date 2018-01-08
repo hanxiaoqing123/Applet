@@ -1,7 +1,8 @@
-const Promise = require('../promise/promise.js').Promise
-var API_URI="https://api.douban.com/v2/movie"
+
+var API_URI = 'https://api.douban.com/v2/movie';
 function fetchApi(type,params){
 	return  new Promise((resolve,reject)=>{
+		wx.request({
 		  url:`${API_URI}/${type}`, //仅为示例，并非真实的接口地址
 		  data:`${params}`,
 		  header: {
@@ -9,6 +10,9 @@ function fetchApi(type,params){
 		  },
 		  success:resolve,
 		  fail:reject
+
+		})
+
 	})
 
 }
