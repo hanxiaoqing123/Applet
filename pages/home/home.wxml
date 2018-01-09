@@ -1,3 +1,20 @@
-<view  class="page">
-    home
+<view  wx:for="{{list}}"  wx:key="*this"  class="mod-list">
+    <view class="left"  >
+       <image  src="{{item.images.large}}"/>
+    </view>
+    <view class="right">
+       <view class="row" style="font-size:14px;font-weight:600;">
+         <text>{{item.original_title}}</text>
+         <text style="color:#ccc;">{{item.year}}</text>
+       </view> 
+       <view class="row"><text>评分</text><text style="color:#f93;">{{item.rating.average}}</text></view> 
+       <view class="row" >
+          <text>导演</text> 
+          <text wx:for="{{item.directors}}"  wx:for-item="director" wx:key="*this" >{{director.name}}</text>
+       </view> 
+       <view class="row">
+          <text>主演</text> 
+          <text wx:for="{{item.casts}}" wx:for-item="cast" wx:key="*this">{{cast.name}}</text>
+       </view> 
+    </view> 
 </view>

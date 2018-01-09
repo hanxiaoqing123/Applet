@@ -6,7 +6,7 @@ Page({
 	},
 	onLoad:function(options){
 		api.getList('in_theaters',this.data.pn)
-		.then(res=>{console.log(res)
+		.then(res=>{this.setData({list:res.subjects})
 		})
 		
 	},

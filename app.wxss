@@ -12,3 +12,18 @@
 .center{
 	text-align:center;
 }
+
+.left{
+	width:200rpx;
+	height:250rpx;
+}
+.left image{
+	width:200rpx;
+	height:250rpx;
+}
+.right{
+	width:500rpx;
+}
+.mod-list{
+	display:flex;
+}
