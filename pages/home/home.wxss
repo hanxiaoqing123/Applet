@@ -21,3 +21,15 @@
 text{
 	margin-right:8rpx;
 }
+.page-loading{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:14px;
+}
+.page-loading .img-loading{
+	width:30rpx;
+	height:30rpx;
+	margin-right:16rpx;
+}
+

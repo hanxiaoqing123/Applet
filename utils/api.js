@@ -18,8 +18,8 @@ function fetchApi(type,params){
 }
 
 module.exports={
-	getList:function(type,pn){
-         return fetchApi(type,{"start":pn,"account":20})
+	getList:function(type,pn=0,count=20){
+         return fetchApi(type,{"start":pn*count,"count":count})
           .then(res=>res.data)
 	}
 }
