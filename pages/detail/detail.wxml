@@ -1,3 +1,36 @@
 <view  class="page">
-    <canvas  canvas-id="firstCanvas"  style="height:400px;width:300px"></canvas>	
+    <view class="detail" >
+       <view class="left">
+         <image src="{{msg.images.large}}" />
+       </view>	
+       <view class="right">
+             <view class="row title">
+               {{msg.original_title}}
+             </view> 
+             <view class="row">
+               评分:<text style="color:#f93;">{{msg.rating.average}}</text>               
+             </view> 
+             <view class="row" >                
+                导演:<text wx:for="{{msg.directors}}" wx:for-item="director" wx:key="*this" >{{director.name}}</text>
+             </view> 
+             <view class="row">
+                主演:<text wx:for="{{msg.casts}}" wx:for-item="cast" wx:key="*that">{{cast.name}}</text>
+             </view> 
+             <view class="row">
+                类型:<text wx:for="{{msg.countries}}" wx:for-item="country" wx:key="*that">{{country}}</text>
+             </view> 
+             <view class="row">
+                国家:<text wx:for="{{msg.genres}}" wx:for-item="genre" wx:key="*that">{{genre}}</text>
+             </view> 
+       </view>	
+
+    </view>	
+</view>
+<view class="summary">
+  <view>
+    <text>剧情简介:</text>
+  </view>
+  <view class="duanluo">
+    <text>{{msg.summary}}</text>
+  </view>
 </view>

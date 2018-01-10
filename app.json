@@ -2,6 +2,7 @@
   "pages":[
     "pages/home/home",
     "pages/coming/coming",
+    "pages/detail/detail",
     "pages/case13/case13",
     "pages/case12/case12",
     "pages/case11/case11",

@@ -1,0 +1,39 @@
+.detail{
+	display:flex;
+
+}
+.left{
+	width:320rpx;
+	height:400rpx;
+	margin:10rpx 20rpx;
+}
+.left image{
+	width:320rpx;
+	height:400rpx;
+}
+.right{
+	width:400rpx;
+	font-size:12px;
+}
+.right .row{
+    line-height:26px;
+}
+.right .title{
+    margin-top:20rpx;
+	font-size:14px;
+	font-weight:600;
+}
+.right text{
+	margin-right:8rpx;
+	font-weight:600;
+}
+.summary{
+	margin:10rpx 20rpx;
+}
+.summary text{
+	font-size:12px;
+	font-weight:600;
+}
+.summary .duanluo{
+	text-indent:26rpx;
+}

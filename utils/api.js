@@ -21,5 +21,9 @@ module.exports={
 	getList:function(type,pn=0,count=20){
          return fetchApi(type,{"start":pn*count,"count":count})
           .then(res=>res.data)
+	},
+	getDetail:function(id){
+         return fetchApi('subject/'+id)
+         .then(res=>res.data)
 	}
 }

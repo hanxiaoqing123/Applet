@@ -5,30 +5,32 @@
   </view>
 </block>
 <block wx:else>
-  <scroll-view style="height:1350rpx;" scroll-y="{{true}}" scroll-top="100"   bindscrolltolower="scrolltolower">  
-    <view  wx:for="{{list}}"  wx:key="*this"  class="mod-list">
-        <view class="left"  >
-           <image  src="{{item.images.large}}"/>
-        </view>
-        <view class="right">
-           <view class="row" style="font-size:14px;font-weight:600;">
-             <text>{{item.original_title}}</text>
-             <text style="color:#ccc;">{{item.year}}</text>
-           </view> 
-           <view class="row">
-             <text>评分</text>
-             <text style="color:#f93;">{{item.rating.average}}</text>
-           </view> 
-           <view class="row" >
-              <text>导演</text> 
-              <text wx:for="{{item.directors}}"  wx:for-item="director" wx:key="*this" >{{director.name}}</text>
-           </view> 
-           <view class="row">
-              <text>主演</text> 
-              <text wx:for="{{item.casts}}" wx:for-item="cast" wx:key="*that">{{cast.name}}</text>
-           </view> 
-        </view> 
-    </view>
+  <scroll-view style="height:1350rpx;" scroll-y="{{true}}" scroll-top="100"   bindscrolltolower="scrolltolower"> 
+  <block  wx:for="{{list}}" wx:key="*this" > 
+      <view data-id="{{item.id}}" bindtap="redirect"   class="mod-list">
+          <view class="left"  >
+             <image  src="{{item.images.large}}"/>
+          </view>
+          <view class="right">
+             <view class="row" style="font-size:14px;font-weight:600;">
+               <text>{{item.original_title}}</text>
+               <text style="color:#ccc;">{{item.year}}</text>
+             </view> 
+             <view class="row">
+               <text>评分</text>
+               <text style="color:#f93;">{{item.rating.average}}</text>
+             </view> 
+             <view class="row" >
+                <text>导演</text> 
+                <text wx:for="{{item.directors}}"  wx:for-item="director" wx:key="*this" >{{director.name}}</text>
+             </view> 
+             <view class="row">
+                <text>主演</text> 
+                <text wx:for="{{item.casts}}" wx:for-item="cast" wx:key="*that">{{cast.name}}</text>
+             </view> 
+          </view> 
+      </view>
+    </block>
     <block wx:if="{{showMore}}">
         <view class="page-loading">
           <image src="/image/1.gif"  class="img-loading"/>

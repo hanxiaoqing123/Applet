@@ -30,6 +30,12 @@ Page({
 
 		})
 	},
+	redirect:function(e){
+       var id=e.currentTarget.dataset.id;
+       wx.navigateTo({
+       	 url:"../detail/detail?id="+id
+       })
+	},
 	onLoad:function(options){
 		this.loadData(this.data.pn);
 	},
