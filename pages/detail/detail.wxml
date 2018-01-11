@@ -22,6 +22,10 @@
              <view class="row">
                 国家:<text wx:for="{{msg.genres}}" wx:for-item="genre" wx:key="*that">{{genre}}</text>
              </view> 
+             <view class="row">
+                看过<text style="color:#69c;">({{msg.reviews_count}})</text>
+                想看<text style="color:#69c;">({{msg.wish_count}})</text>
+             </view> 
        </view>	
 
     </view>	
