@@ -8,10 +8,20 @@ Page({
      var id=options.id;
      api.getDetail(id)
      .then(res=>{
+      //console.log(res)
+      var m1=this.getSummary(res.summary);
         this.setData({
-          msg:res
+          msg:res,
+          summary:m1
         })
      })
+  },
+  getSummary:function(data){
+    if(data.length>=180){
+       return data.substr(0,180)+"......";
+    }else{
+      return data;
+    }
   },
   onReady:function(){
     

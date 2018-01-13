@@ -35,6 +35,6 @@
     <text>剧情简介:</text>
   </view>
   <view class="duanluo">
-    <text>{{msg.summary}}</text>
+    <text>{{summary}}</text>
   </view>
 </view>
