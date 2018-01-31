@@ -1,5 +1,6 @@
 
-var API_URI = 'https://api.douban.com/v2/movie';
+//var API_URI = 'https://api.douban.com/v2/movie';
+var API_URI = 'http://t.yushu.im/v2/movie';
 function fetchApi(type,params){
 	return  new Promise((resolve,reject)=>{
 		wx.request({
